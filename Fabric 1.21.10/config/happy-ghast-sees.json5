@@ -1,0 +1,10 @@
+{
+	"exposeCooldown": 200,
+	"exposeTick": 100,
+	"exposeDistance": 24.0,
+	"dontExposeType": [
+		"minecraft:villager",
+		"minecraft:iron_golem"
+	],
+	"dontExposePlayer": []
+}

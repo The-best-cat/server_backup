@@ -1,0 +1,55 @@
+{
+  "version": 0,
+  "disableScreen": false,
+  "data": [
+    {
+      "attributeId": "minecraft:attack_damage",
+      "prefix": "",
+      "format": "RAW",
+      "decimalPlaces": 1,
+      "unit": "",
+      "expression": ""
+    },
+    {
+      "attributeId": "minecraft:attack_speed",
+      "prefix": "",
+      "format": "RAW",
+      "decimalPlaces": 0,
+      "unit": "",
+      "expression": ""
+    },
+    {
+      "attributeId": "minecraft:sweeping_damage_ratio",
+      "prefix": "",
+      "format": "PERCENTAGE",
+      "decimalPlaces": 1,
+      "unit": "",
+      "expression": ""
+    },
+    {
+      "attributeId": "minecraft:armor",
+      "prefix": "",
+      "format": "RAW",
+      "decimalPlaces": 0,
+      "unit": "",
+      "expression": ""
+    },
+    {
+      "attributeId": "minecraft:armor_toughness",
+      "prefix": "",
+      "format": "RAW",
+      "decimalPlaces": 0,
+      "unit": "",
+      "expression": ""
+    },
+    {
+      "attributeId": "minecraft:movement_speed",
+      "prefix": "",
+      "format": "RAW",
+      "decimalPlaces": 1,
+      "unit": "m/s",
+      "expression": "x * 43.17"
+    }
+  ],
+  "useServerConfig": false
+}

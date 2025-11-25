@@ -1,0 +1,24 @@
+{
+	"displays": {
+		"minecraft:attack_damage": {
+			"dp": 1
+		},
+		"minecraft:attack_speed": {
+		},
+		"minecraft:sweeping_damage_ratio": {
+			"dp": 1,
+			"prefix": "+",
+			"percentage": true,
+			"unit": "%"
+		},
+		"minecraft:armor": {
+		},
+		"minecraft:armor_toughness": {
+			"dp": 1
+		},
+		"minecraft:movement_speed": {
+			"dp": 1,
+			"unit": "m/s"
+		}
+	}
+}

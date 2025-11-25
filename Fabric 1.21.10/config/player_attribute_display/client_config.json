@@ -1,0 +1,78 @@
+{
+  "version": 0,
+  "showDetail": false,
+  "data": [
+    {
+      "attributeId": "minecraft:attack_damage",
+      "prefix": "",
+      "format": "RAW",
+      "decimalPlaces": 1,
+      "unit": "",
+      "expression": ""
+    },
+    {
+      "attributeId": "minecraft:attack_speed",
+      "prefix": "",
+      "format": "RAW",
+      "decimalPlaces": 0,
+      "unit": "",
+      "expression": ""
+    },
+    {
+      "attributeId": "blink_ability:critical_damage",
+      "prefix": "",
+      "format": "PERCENTAGE",
+      "decimalPlaces": 0,
+      "unit": "",
+      "expression": ""
+    },
+    {
+      "attributeId": "minecraft:armor",
+      "prefix": "",
+      "format": "RAW",
+      "decimalPlaces": 0,
+      "unit": "",
+      "expression": ""
+    },
+    {
+      "attributeId": "minecraft:armor_toughness",
+      "prefix": "",
+      "format": "RAW",
+      "decimalPlaces": 0,
+      "unit": "",
+      "expression": ""
+    },
+    {
+      "attributeId": "minecraft:movement_speed",
+      "prefix": "",
+      "format": "RAW",
+      "decimalPlaces": 2,
+      "unit": "m/s",
+      "expression": "x * 43.17"
+    }
+  ],
+  "nameColour": {
+    "r": 55,
+    "g": 55,
+    "b": 55,
+    "a": 255
+  },
+  "valueColour": {
+    "r": 114,
+    "g": 114,
+    "b": 114,
+    "a": 255
+  },
+  "positiveDetailColour": {
+    "r": 0,
+    "g": 206,
+    "b": 0,
+    "a": 255
+  },
+  "negativeDetailColour": {
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "a": 255
+  }
+}

@@ -1,0 +1,5 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+blinkFovScale = 1.7
+showHandWhenBlinking = true
+hearSoundMode = "ALL"
