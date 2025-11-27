@@ -1,11 +1,12 @@
-[14:27:25] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.18.1
-[14:27:26] [main/WARN]: Warnings were found!
+[11:25:45] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.18.1
+[11:25:45] [main/WARN]: Warnings were found!
  - 模組 'Forge Config API Port' (forgeconfigapiport) 21.10.1 建議安裝 所有版本 modmenu，但該版本缺失！
 	 - 為了最佳體驗，你應安裝 modmenu 所有版本 版本。
-[14:27:26] [main/INFO]: Loading 109 mods:
+[11:25:45] [main/INFO]: Loading 110 mods:
 	- appleskin 3.0.7+mc1.21.9
 	- architectury 18.0.6
 	- blink_ability 1.0.0
+	- cancel_item_use 1.0.0+1.21.7
 	- cardinal-components 7.2.0
 	   |-- cardinal-components-base 7.2.0
 	   |-- cardinal-components-block 7.2.0
@@ -106,7 +107,7 @@
 	- placeholder-api 2.8.1+1.21.10
 	- player_attribute_display 1.0.0
 	- puzzleslib 21.10.5
-	- throwable_axe 1.0.0+1.21.10-beta.3
+	- throwable_axe 1.0.0+1.21.10
 	- timed_modifier_api 1.2.2+1.21.7
 	- travelersbackpack 10.10.0
 	- wing 1.0.0
@@ -119,3 +120,69 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
+[11:25:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/heino/Documents/Minecraft/Servers/Fabric%201.21.10/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[11:25:46] [main/INFO]: Compatibility level set to JAVA_21
+[11:25:46] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[11:25:46] [main/WARN]: Reference map 'forgeconfigapiport.fabric.refmap.json' for forgeconfigapiport.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[11:25:46] [main/INFO]: Loaded configuration file for Lithium: 163 options available, 0 override(s) found.
+[11:25:46] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[11:25:46] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[11:25:46] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[11:25:47] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[11:25:47] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[11:25:58] [main/INFO]: Loaded config blink_ability:server_config in 433ms
+[11:25:59] [Cicada thread 0/INFO]: [cicada] I used the JSON to destroy the JSON.
+[11:25:59] [main/INFO]: as a based person once said: it doesn't have to be balanced unless you're making a pvp focused mod
+[11:25:59] [main/INFO]: Loaded config player_attribute_display:server_config in 107ms
+[11:25:59] [main/INFO]: Constructing components for puzzleslib:common
+[11:26:00] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[11:26:00] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[11:26:00] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[11:26:00] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[11:26:00] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[11:26:00] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[11:26:00] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[11:26:00] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[11:26:02] [main/INFO]: Loaded 1598 recipes
+[11:26:02] [main/INFO]: Loaded 1734 advancements
+[11:26:03] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 4.493 ms
+[11:26:03] [Server thread/INFO]: [Grind Enchantments] Reading server config.
+[11:26:03] [Server thread/INFO]: [MobFilter] Loading configuration
+[11:26:03] [Server thread/INFO]: [MobFilter] Log level is INFO
+[11:26:03] [Server thread/WARN]: [MobFilter] No rules configured
+[11:26:03] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[11:26:03] [Server thread/INFO]: Loading properties
+[11:26:03] [Server thread/INFO]: Default game type: SURVIVAL
+[11:26:03] [Server thread/INFO]: Generating keypair
+[11:26:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:26:03] [Server thread/INFO]: Using default channel type
+[11:26:03] [Server thread/INFO]: Preparing level "world"
+[11:26:04] [Server thread/INFO]: Loading 0 persistent chunks...
+[11:26:04] [Server thread/INFO]: Preparing spawn area: 100%
+[11:26:04] [Server thread/INFO]: Time elapsed: 65 ms
+[11:26:04] [Server thread/INFO]: Done (0.614s)! For help, type "help"
+[11:26:07] [User Authenticator #1/INFO]: UUID of player DuskyWisp is bd27e6eb-2b7e-40ff-8447-391cd3dc68f7
+[11:26:10] [Server thread/INFO]: DuskyWisp[/127.0.0.1:50293] logged in with entity id 79 at (-1513.2106810768698, 63.0, -960.7030622088147)
+[11:26:10] [Server thread/INFO]: Loading config from file...
+[11:26:10] [Server thread/INFO]: DuskyWisp joined the game
+[11:39:54] [Server thread/INFO]: [DuskyWisp: Gave 1 [Iron Sword] to DuskyWisp]
+[11:39:58] [Server thread/INFO]: [DuskyWisp: Applied enchantment Sweeping Edge II to DuskyWisp's item]
+[11:40:03] [Server thread/INFO]: [DuskyWisp: Applied enchantment Fire Aspect I to DuskyWisp's item]
+[11:40:06] [Server thread/INFO]: [DuskyWisp: Applied enchantment Knockback II to DuskyWisp's item]
+[11:44:23] [Server thread/INFO]: Villager class_1646['Villager'/2871, l='ServerLevel[Me & Sis]', x=-1453.30, y=68.94, z=-976.98] died, message: 'Villager was slain by Zombie'
+[11:44:54] [Server thread/INFO]: Villager class_1646['Villager'/2870, l='ServerLevel[Me & Sis]', x=-1473.66, y=66.00, z=-972.45] died, message: 'Villager was slain by Zombie'
+[11:47:09] [Server thread/INFO]: [DuskyWisp: Summoned new Villager]
+[12:06:27] [Server thread/INFO]: Villager class_1646['Leatherworker'/8356, l='ServerLevel[Me & Sis]', x=-1413.25, y=70.00, z=-1001.40] died, message: 'Leatherworker was slain by DuskyWisp'
+[12:09:25] [Server thread/INFO]: DuskyWisp lost connection: Disconnected
+[12:09:25] [Server thread/INFO]: DuskyWisp left the game
+[12:09:29] [Server thread/INFO]: Stopping the server
+[12:09:29] [Server thread/INFO]: Stopping server
+[12:09:29] [Server thread/INFO]: Saving players
+[12:09:29] [Server thread/INFO]: Saving worlds
+[12:09:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Me & Sis]'/minecraft:overworld
+[12:09:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Me & Sis]'/minecraft:the_nether
+[12:09:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Me & Sis]'/minecraft:the_end
+[12:09:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:09:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:09:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:09:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

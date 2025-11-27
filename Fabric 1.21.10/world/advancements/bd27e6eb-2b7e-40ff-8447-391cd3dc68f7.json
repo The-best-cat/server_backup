@@ -4718,5 +4718,53 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/emerald_smithing": {
+    "criteria": {
+      "has_emerald": "2025-11-25 15:56:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_shelf": {
+    "criteria": {
+      "has_stripped_jungle_log": "2025-11-25 18:01:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-11-25 18:01:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2025-11-25 18:01:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-11-25 21:31:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_shelf": {
+    "criteria": {
+      "has_stripped_dark_oak_log": "2025-11-25 21:31:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-11-25 21:31:20 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/chicken_smithing": {
+    "criteria": {
+      "has_chicken": "2025-11-26 23:34:51 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4556
 }
