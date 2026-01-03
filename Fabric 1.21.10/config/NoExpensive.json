@@ -1,0 +1,9 @@
+{
+  "maxLevel": 0,
+  "combineHigher": false,
+  "compatibility": {
+    "throwable_axe:well_prepared": [
+      "minecraft:mending"
+    ]
+  }
+}

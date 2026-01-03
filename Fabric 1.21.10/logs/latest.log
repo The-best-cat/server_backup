@@ -1,11 +1,10 @@
-[11:25:45] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.18.1
-[11:25:45] [main/WARN]: Warnings were found!
+[15:05:22] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.18.3
+[15:05:22] [main/WARN]: Warnings were found!
  - 模組 'Forge Config API Port' (forgeconfigapiport) 21.10.1 建議安裝 所有版本 modmenu，但該版本缺失！
 	 - 為了最佳體驗，你應安裝 modmenu 所有版本 版本。
-[11:25:45] [main/INFO]: Loading 110 mods:
+[15:05:22] [main/INFO]: Loading 112 mods:
 	- appleskin 3.0.7+mc1.21.9
 	- architectury 18.0.6
-	- blink_ability 1.0.0
 	- cancel_item_use 1.0.0+1.21.7
 	- cardinal-components 7.2.0
 	   |-- cardinal-components-base 7.2.0
@@ -20,7 +19,9 @@
 	   \-- org_yaml_snakeyaml 2.2
 	- cloth-config 20.0.149
 	   \-- cloth-basic-math 0.6.1
-	- endurance 1.0.2+1.21.9
+	- duskyblink 1.1.0+1.21.10
+	- duskywisp_library 2.1.0+1.21.10
+	- endurance 2.0.0+1.21.9
 	- fabric-api 0.138.3+1.21.10
 	   |-- fabric-api-base 1.0.0+14b92d896f
 	   |-- fabric-api-lookup-api-v1 1.6.106+d17682156f
@@ -79,7 +80,7 @@
 	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
 	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
 	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
-	- fabricloader 0.18.1
+	- fabricloader 0.18.3
 	   \-- mixinextras 0.5.0
 	- ferritecore 8.0.2
 	- forgeconfigapiport 21.10.1
@@ -99,6 +100,7 @@
 	- minecraft 1.21.10
 	- mobfilter 0.23.0+1.21.10
 	- mr_lukis_grandcapitals 1.1.2
+	- noexpensive 1.21.10-1.10.2
 	- owo 0.12.24+1.21.9
 	   |-- io_wispforest_endec 0.1.11
 	   |-- io_wispforest_endec_gson 0.1.6
@@ -107,8 +109,8 @@
 	- placeholder-api 2.8.1+1.21.10
 	- player_attribute_display 1.0.0
 	- puzzleslib 21.10.5
-	- throwable_axe 1.0.0+1.21.10
-	- timed_modifier_api 1.2.2+1.21.7
+	- throwable_axe 1.0.4+1.21.10
+	- timed_modifier_api 1.3.1+1.21.7
 	- travelersbackpack 10.10.0
 	- wing 1.0.0
 	- yet_another_config_lib_v3 3.8.0+1.21.9-fabric
@@ -120,69 +122,77 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[11:25:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/heino/Documents/Minecraft/Servers/Fabric%201.21.10/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[11:25:46] [main/INFO]: Compatibility level set to JAVA_21
-[11:25:46] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[11:25:46] [main/WARN]: Reference map 'forgeconfigapiport.fabric.refmap.json' for forgeconfigapiport.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[11:25:46] [main/INFO]: Loaded configuration file for Lithium: 163 options available, 0 override(s) found.
-[11:25:46] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[11:25:46] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[11:25:46] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
-[11:25:47] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[11:25:47] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[11:25:58] [main/INFO]: Loaded config blink_ability:server_config in 433ms
-[11:25:59] [Cicada thread 0/INFO]: [cicada] I used the JSON to destroy the JSON.
-[11:25:59] [main/INFO]: as a based person once said: it doesn't have to be balanced unless you're making a pvp focused mod
-[11:25:59] [main/INFO]: Loaded config player_attribute_display:server_config in 107ms
-[11:25:59] [main/INFO]: Constructing components for puzzleslib:common
-[11:26:00] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[11:26:00] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[11:26:00] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[11:26:00] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[11:26:00] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[11:26:00] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[11:26:00] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[11:26:00] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[11:26:02] [main/INFO]: Loaded 1598 recipes
-[11:26:02] [main/INFO]: Loaded 1734 advancements
-[11:26:03] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 4.493 ms
-[11:26:03] [Server thread/INFO]: [Grind Enchantments] Reading server config.
-[11:26:03] [Server thread/INFO]: [MobFilter] Loading configuration
-[11:26:03] [Server thread/INFO]: [MobFilter] Log level is INFO
-[11:26:03] [Server thread/WARN]: [MobFilter] No rules configured
-[11:26:03] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[11:26:03] [Server thread/INFO]: Loading properties
-[11:26:03] [Server thread/INFO]: Default game type: SURVIVAL
-[11:26:03] [Server thread/INFO]: Generating keypair
-[11:26:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:26:03] [Server thread/INFO]: Using default channel type
-[11:26:03] [Server thread/INFO]: Preparing level "world"
-[11:26:04] [Server thread/INFO]: Loading 0 persistent chunks...
-[11:26:04] [Server thread/INFO]: Preparing spawn area: 100%
-[11:26:04] [Server thread/INFO]: Time elapsed: 65 ms
-[11:26:04] [Server thread/INFO]: Done (0.614s)! For help, type "help"
-[11:26:07] [User Authenticator #1/INFO]: UUID of player DuskyWisp is bd27e6eb-2b7e-40ff-8447-391cd3dc68f7
-[11:26:10] [Server thread/INFO]: DuskyWisp[/127.0.0.1:50293] logged in with entity id 79 at (-1513.2106810768698, 63.0, -960.7030622088147)
-[11:26:10] [Server thread/INFO]: Loading config from file...
-[11:26:10] [Server thread/INFO]: DuskyWisp joined the game
-[11:39:54] [Server thread/INFO]: [DuskyWisp: Gave 1 [Iron Sword] to DuskyWisp]
-[11:39:58] [Server thread/INFO]: [DuskyWisp: Applied enchantment Sweeping Edge II to DuskyWisp's item]
-[11:40:03] [Server thread/INFO]: [DuskyWisp: Applied enchantment Fire Aspect I to DuskyWisp's item]
-[11:40:06] [Server thread/INFO]: [DuskyWisp: Applied enchantment Knockback II to DuskyWisp's item]
-[11:44:23] [Server thread/INFO]: Villager class_1646['Villager'/2871, l='ServerLevel[Me & Sis]', x=-1453.30, y=68.94, z=-976.98] died, message: 'Villager was slain by Zombie'
-[11:44:54] [Server thread/INFO]: Villager class_1646['Villager'/2870, l='ServerLevel[Me & Sis]', x=-1473.66, y=66.00, z=-972.45] died, message: 'Villager was slain by Zombie'
-[11:47:09] [Server thread/INFO]: [DuskyWisp: Summoned new Villager]
-[12:06:27] [Server thread/INFO]: Villager class_1646['Leatherworker'/8356, l='ServerLevel[Me & Sis]', x=-1413.25, y=70.00, z=-1001.40] died, message: 'Leatherworker was slain by DuskyWisp'
-[12:09:25] [Server thread/INFO]: DuskyWisp lost connection: Disconnected
-[12:09:25] [Server thread/INFO]: DuskyWisp left the game
-[12:09:29] [Server thread/INFO]: Stopping the server
-[12:09:29] [Server thread/INFO]: Stopping server
-[12:09:29] [Server thread/INFO]: Saving players
-[12:09:29] [Server thread/INFO]: Saving worlds
-[12:09:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Me & Sis]'/minecraft:overworld
-[12:09:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Me & Sis]'/minecraft:the_nether
-[12:09:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Me & Sis]'/minecraft:the_end
-[12:09:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:09:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:09:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:09:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:05:23] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/heino/Documents/Minecraft/Servers/Fabric%201.21.10/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[15:05:23] [main/INFO]: Compatibility level set to JAVA_21
+[15:05:23] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:05:23] [main/WARN]: Reference map 'forgeconfigapiport.fabric.refmap.json' for forgeconfigapiport.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:05:23] [main/INFO]: Loaded configuration file for Lithium: 163 options available, 0 override(s) found.
+[15:05:23] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:05:23] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:05:24] [main/WARN]: Error loading class: net/minecraft/class_471 (java.lang.ClassNotFoundException: net/minecraft/class_471)
+[15:05:24] [main/WARN]: @Mixin target net.minecraft.class_471 was not found noexpensive.mixins.json:AnvilScreenMixin from mod noexpensive
+[15:05:24] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[15:05:24] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[15:05:24] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[15:05:35] [Cicada thread 0/INFO]: [cicada] Meow
+[15:05:35] [main/INFO]: [STDOUT]: Hello NoExpensive world!
+[15:05:35] [main/INFO]: blod: he her
+[15:05:36] [main/INFO]: Loaded config player_attribute_display:server_config in 528ms
+[15:05:36] [main/INFO]: Constructing components for puzzleslib:common
+[15:05:36] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[15:05:36] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[15:05:36] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[15:05:36] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[15:05:37] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[15:05:37] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[15:05:37] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15:05:37] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[15:05:39] [main/INFO]: Loaded 1598 recipes
+[15:05:39] [main/INFO]: Loaded 1735 advancements
+[15:05:40] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.953 ms
+[15:05:40] [Server thread/INFO]: [Grind Enchantments] Reading server config.
+[15:05:40] [Server thread/INFO]: [MobFilter] Loading configuration
+[15:05:40] [Server thread/INFO]: [MobFilter] Log level is INFO
+[15:05:40] [Server thread/WARN]: [MobFilter] No rules configured
+[15:05:40] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[15:05:40] [Server thread/INFO]: Loading properties
+[15:05:40] [Server thread/INFO]: Default game type: SURVIVAL
+[15:05:40] [Server thread/INFO]: Generating keypair
+[15:05:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:05:40] [Server thread/INFO]: Using default channel type
+[15:05:40] [Server thread/INFO]: Preparing level "world"
+[15:05:40] [Server thread/INFO]: Loading 0 persistent chunks...
+[15:05:40] [Server thread/INFO]: Preparing spawn area: 100%
+[15:05:40] [Server thread/INFO]: Time elapsed: 18 ms
+[15:05:40] [Server thread/INFO]: Done (0.484s)! For help, type "help"
+[15:06:30] [User Authenticator #1/INFO]: UUID of player DuskyWisp is bd27e6eb-2b7e-40ff-8447-391cd3dc68f7
+[15:06:32] [Server thread/INFO]: DuskyWisp[/127.0.0.1:60217] logged in with entity id 66 at (-1487.6169559377156, 63.0, -961.524161829689)
+[15:06:32] [Server thread/INFO]: Loading config from file...
+[15:06:32] [Server thread/INFO]: DuskyWisp joined the game
+[15:54:55] [Server thread/WARN]: DuskyWisp moved wrongly!
+[15:58:16] [Server thread/WARN]: DuskyWisp moved wrongly!
+[15:59:35] [Server thread/WARN]: DuskyWisp moved wrongly!
+[16:01:29] [Server thread/WARN]: DuskyWisp moved wrongly!
+[16:33:55] [Server thread/WARN]: DuskyWisp moved wrongly!
+[16:35:19] [Server thread/WARN]: DuskyWisp moved wrongly!
+[17:33:59] [Server thread/WARN]: DuskyWisp moved wrongly!
+[17:38:29] [Server thread/WARN]: DuskyWisp moved too quickly! 36.55674747822923,0.0,0.26286711187174205
+[17:39:05] [Server thread/WARN]: DuskyWisp moved too quickly! -15.514044594278403,0.02500000223517418,-0.21948041438156451
+[17:39:05] [Server thread/WARN]: DuskyWisp moved too quickly! -15.514042282505898,0.02499999850988388,-0.2194803816764761
+[17:40:04] [Server thread/INFO]: [DuskyWisp: Teleported DuskyWisp to 114.500000, 72.500000, 680.500000]
+[17:43:58] [Server thread/INFO]: DuskyWisp tried to swim in lava
+[17:43:58] [Server thread/INFO]: Created new backpack backup file for DuskyWisp with unique ID travelersbackpack.standard_02.01.2026-17.43.58.dat
+[18:40:46] [Server thread/INFO]: DuskyWisp lost connection: Disconnected
+[18:40:46] [Server thread/INFO]: DuskyWisp left the game
+[18:41:46] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:43:47] [Server thread/INFO]: Stopping the server
+[18:43:47] [Server thread/INFO]: Stopping server
+[18:43:47] [Server thread/INFO]: Saving players
+[18:43:47] [Server thread/INFO]: Saving worlds
+[18:43:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:43:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:43:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:43:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:43:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:43:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:43:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
